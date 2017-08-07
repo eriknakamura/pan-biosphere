@@ -25,17 +25,17 @@ Extra Components
 
 # Pinouts
 This is just data lines, Vin and Ground is pretty self explanitory and varies per device. I might have missed some, confirm in code. 
-LCD SDA -- D0
-LCD SCL -- D1
-RGB Rotary Encoder Button -- D3
-RGB Rotary Encoder A -- D4
-RGB Rotary Encoder B -- D5
-Relay One -- D6
-Relay Two -- D7
-DHTXX -- A0
-RGB Rotary Encoder Red -- A4
-RGB Rotary Encoder Green -- A7
-RGB Rotary Encoder Blue -- A5
+- LCD SDA -- D0
+- LCD SCL -- D1
+- RGB Rotary Encoder Button -- D3
+- RGB Rotary Encoder A -- D4
+- RGB Rotary Encoder B -- D5
+- Relay One -- D6
+- Relay Two -- D7
+- DHTXX -- A0
+- RGB Rotary Encoder Red -- A4
+- RGB Rotary Encoder Green -- A7
+- RGB Rotary Encoder Blue -- A5
 
 
 # Resources
