@@ -1,8 +1,8 @@
 # pan-biosphere
-Particle photon firmware for automating my aquarium. Includes a full LCD GUI and an RGB rotary encoder. Linked to Blynk, and partially cloud accessible, but my goal is to further inocropare Blynk into the project to make the whole thing cloud accessible.
+Particle photon firmware for automating my aquarium. Includes a full LCD GUI and an RGB rotary encoder. Linked to Blynk, and partially cloud accessible, but my goal is to further incorporate Blynk into the project to make the whole thing cloud accessible.
 
 This is by no means a plug and play system yet, so you'll probably have to do a bit of adapting to get it to work for you. My vision is to create something neat and easily adaptable but this is more of a proof of concept/alpha prototype towards that.
-That being said it could be worthwhile; I think anyone wishing to duplicate the project will find it useful for their aquarium. The emphasis of this project was the UX and the practicallity of quickly interfacing with the aquarium.
+That being said it could be worthwhile; I think anyone wishing to duplicate the project will find it useful for their aquarium. The emphasis of this project was the UX and the practicality of quickly interfacing with the aquarium.
 
 # Components
 
@@ -24,7 +24,7 @@ Extra Components
 7. Whatever else you need to get it to work :)
 
 # Pinouts
-This is just data lines, Vin and Ground is pretty self explanitory and varies per device. I might have missed some, confirm in code. 
+This is just data lines, Vin and Ground is pretty self explanatory and varies per device. I might have missed some, confirm in code. 
 - LCD SDA -- D0
 - LCD SCL -- D1
 - RGB Rotary Encoder Button -- D3
@@ -48,11 +48,11 @@ Libraries Used
 1. Blynk (In web IDE)
 2. Adafruit DHT (In web IDE)
 3. rgb-controls (In web IDE)
-4. OneWire (In web IDE) Havn't actually gotten the DS18B20 to work yet
+4. OneWire (In web IDE) Haven't actually gotten the DS18B20 to work yet
 
 Sources of Inspiration
 
   There is lots of code I just scraped off of random forums and places on the internet. Here are the sources I could remember/find again. 
- 1. [A google doc someone made about rotary encoder LCD interfaces}(https://drive.google.com/drive/u/0/folders/0B5m_NdW7qSxgdkV4R1RNYzE0Rnc)
+ 1. [A google doc someone made about rotary encoder LCD interfaces](https://drive.google.com/drive/u/0/folders/0B5m_NdW7qSxgdkV4R1RNYzE0Rnc)
  2. [Some code for the rotary encoder from this Particle forum](https://community.particle.io/t/rotary-encoder-basics/6135)
  
