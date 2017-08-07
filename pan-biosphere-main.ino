@@ -42,7 +42,7 @@ LiquidCrystal_I2C   *lcd;
 
 
 //BLYNK auth token
-char auth[] = "xxxxxxxxxxxxx";
+char auth[] = "80cb452342484497ab82f60b165ee453";
 
 // Define ALL pins here!!!
 #define HUM_FRONT A0
@@ -128,7 +128,7 @@ int knobMin = 10;
 int knobMax = 13;
 bool clearScreen = false;
 bool onHomeScreen = true;
-int timeOffHomeScreen = 0;
+int offHomeScreenTime = 0;
 int homeScreenReturnTime = 60*5; //five minutes. This is the time in which the GUI will return to the homescreen if left.
 bool settingsNextMenu = false;
 
@@ -239,7 +239,7 @@ sumpExpirationTime = (sumpExpirationTimeMin * 60) + sumpExpirationTimeSec;
 mainExpirationTime = (mainExpirationTimeMin * 60) + mainExpirationTimeSec;
 
 //Return to home screen if away for too long
-if(Time.now() - homeScreenReturnTime < timeOffHomeScreen){
+if(Time.now() - homeScreenReturnTime > offHomeScreenTime){
     encoderCounter = 0;
     onHomeScreen = true;
 }
@@ -370,7 +370,7 @@ switch (encoderCounter){
             encoderCounter = 10;
             knobMin = 10;
             knobMax = 13;
-            timeOffHomeScreen = Time.now();
+            offHomeScreenTime = Time.now();
             onHomeScreen = false;
         }
         break;
@@ -419,7 +419,7 @@ switch (encoderCounter){
             knobMin = 10;
             knobMax = 13;
             onHomeScreen = true;
-            timeOffHomeScreen = 0;
+            offHomeScreenTime = 0;
         }
         break;
     case 20:
