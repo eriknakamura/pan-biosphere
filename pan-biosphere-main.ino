@@ -42,7 +42,7 @@ LiquidCrystal_I2C   *lcd;
 
 
 //BLYNK auth token
-char auth[] = "80cb452342484497ab82f60b165ee453";
+char auth[] = "xxxxxxx";
 
 // Define ALL pins here!!!
 #define HUM_FRONT A0
