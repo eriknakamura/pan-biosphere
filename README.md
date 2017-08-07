@@ -51,6 +51,7 @@ Libraries Used
 4. OneWire (In web IDE) Havn't actually gotten the DS18B20 to work yet
 
 Sources of Inspiration
+
   There is lots of code I just scraped off of random forums and places on the internet. Here are the sources I could remember/find again. 
  1. [A google doc someone made about rotary encoder LCD interfaces}(https://drive.google.com/drive/u/0/folders/0B5m_NdW7qSxgdkV4R1RNYzE0Rnc)
  2. [Some code for the rotary encoder from this Particle forum](https://community.particle.io/t/rotary-encoder-basics/6135)
