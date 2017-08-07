@@ -6,7 +6,7 @@ That being said it could be worthwhile; I think anyone wishing to duplicate the 
 
 Important note!
 
-I'm not adding the libraries in this repository. Most of them are on the Particle web IDE. The only one that isn't is the I2C lcd library, but you can find all of the neccesary code here: [gist](https://gist.github.com/anonymous/dc7ecc5e6574105b4fbd) or at the link to the tutorial below. 
+I'm not adding the libraries in this repository. Most of them are on the Particle web IDE. The only one that isn't is the I2C lcd library, but you can find all of the neccesary code here: [gist](https://gist.github.com/anonymous/dc7ecc5e6574105b4fbd) or at the link to the tutorial [below](https://github.com/eriknakamura/pan-biosphere/blob/master/README.md#resources). 
 
 # Components
 
