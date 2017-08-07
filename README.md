@@ -4,6 +4,10 @@ Particle photon firmware for automating my aquarium. Includes a full LCD GUI and
 This is by no means a plug and play system yet, so you'll probably have to do a bit of adapting to get it to work for you. My vision is to create something neat and easily adaptable but this is more of a proof of concept/alpha prototype towards that.
 That being said it could be worthwhile; I think anyone wishing to duplicate the project will find it useful for their aquarium. The emphasis of this project was the UX and the practicality of quickly interfacing with the aquarium.
 
+Important note!
+
+I'm not adding the libraries in this repository. Most of them are on the Particle web IDE. The only one that isn't is the I2C lcd library, but you can find all of the neccesary code here: [gist](https://gist.github.com/anonymous/dc7ecc5e6574105b4fbd) or at the link to the tutorial below. 
+
 # Components
 
 Main Components
