@@ -42,7 +42,7 @@ LiquidCrystal_I2C   *lcd;
 
 
 //BLYNK auth token
-char auth[] = "xxxxxxx";
+char auth[] = "xxxxxxxxx";
 
 // Define ALL pins here!!!
 #define HUM_FRONT A0
@@ -268,11 +268,11 @@ if(sumpOnHr*60 + sumpOnMin < currentHour*60 + currentMinute && sumpOffHr*60 + su
     if(!sumpSwitchValidation){
         sumpLight = true;
     }
-    else if(sumpSwitchValidation){
+    else if(sumpSwitchValidation && !sumpLightSwitch){
         sumpLight = false;
     }
 }
-else if(sumpSwitchValidation){
+else if(sumpSwitchValidation && sumpLightSwitch){
     sumpLight = true;
 }
 else{
