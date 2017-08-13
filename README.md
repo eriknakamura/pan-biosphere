@@ -53,6 +53,7 @@ Libraries Used
 2. Adafruit DHT (In web IDE)
 3. rgb-controls (In web IDE)
 4. OneWire (In web IDE) Haven't actually gotten the DS18B20 to work yet
+5. I2C LCD Library from [this Particle forum](https://community.particle.io/t/lcd-i2c-lib-info-customcharacters/4670)
 
 Sources of Inspiration
 
