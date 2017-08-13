@@ -13,10 +13,10 @@ I'm not adding the libraries in this repository. Most of them are on the Particl
 Main Components
 1. Particle Photon
 2. Serial 20x4 I2C LCD
-3. DHT11 or DHT22 humidity probe (currently running a DHT11 but DHT22 switch will come soon)
+3. DHT11 or DHT22 humidity probe (Only one line of code has to be changed to switch. "#define DHT_TYPE DHTxx") I highly recomend the DHT22 for its faster refresh rates and better accuracy. The DHT11 is very basic but a good inexpensive place to start.
 4. Waterproof Dallas DS18B20 temp. probe (currently do not have this working)
 5. Sparkfun RGB Rotary Encoder
-6. Relay Shield configured to NC and open on LOW
+6. Relay Shield configured to NC and open on LOW (Would also be easy to change it to open on HIGH)
 
 Extra Components
 1. 2 x .1 mico farad capacitor
