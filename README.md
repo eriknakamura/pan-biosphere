@@ -1,4 +1,5 @@
 # pan-biosphere
+[QUICK VIDEO OF PROJECT](http://eriknakamura.com/aquarium-projects/#pan-biosphere)
 Particle photon firmware for automating my aquarium. Includes a full LCD GUI and an RGB rotary encoder. Linked to Blynk, and partially cloud accessible, but my goal is to further incorporate Blynk into the project to make the whole thing cloud accessible.
 
 This is by no means a plug and play system yet, so you'll probably have to do a bit of adapting to get it to work for you. My vision is to create something neat and easily adaptable but this is more of a proof of concept/alpha prototype towards that.
